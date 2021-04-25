@@ -19,7 +19,7 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/users',userRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://techbeer:asdf123@cluster0.tk5up.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb://root:bPt4AnKfPn@takbeerali-mongo-production/admin';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })

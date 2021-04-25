@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API= axios.create({ baseURL: 'http://localhost:5000'});
+const API= axios.create({ baseURL: 'https://takbeerali-memories-backend.zeet.app'});
 // const url =  "https://memorieesapp.herokuapp.com/posts";
 
 
